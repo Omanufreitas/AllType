@@ -453,6 +453,12 @@ a {
   filter: grayscale(1);
 }
 
+@media (max-width: 960px) {
+  .hero__watermark {
+    display: none;
+  }
+}
+
 .hero__content {
   position: relative;
   z-index: 1;
